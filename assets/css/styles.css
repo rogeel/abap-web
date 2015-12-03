@@ -61,3 +61,76 @@ header ul.flexnav li a.active,header ul.flexnav li a:hover{
 }
 
 /*FIN HEADER*/
+
+/*SLIDER*/
+
+.main-slider{
+	margin-top: 30px;
+}
+
+.slide .bx-wrapper {
+	margin-bottom: 0;
+}
+
+.slide .bx-wrapper .bx-viewport {
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: none;   
+}
+
+.slide ul li img{
+	width: 100%;
+	height: auto;
+}
+
+.slide .bx-controls.bx-has-pager.bx-has-controls-direction{
+	background-color: #9d2d2c;
+    height: 10px;
+}
+
+.slide .bx-wrapper .bx-pager{
+	bottom: -11px;
+}
+
+.slide .bx-wrapper .bx-pager.bx-default-pager a{
+	background: #9d2d2c;
+	border: 6px solid #9d2d2c;
+	border-radius: 100%;
+	-moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    box-sizing: border-box;
+	width: 25px;
+	height: 25px;
+	text-indent: 0;
+
+}
+
+.slide .bx-wrapper .bx-pager.bx-default-pager a:hover, .slide .bx-wrapper .bx-pager.bx-default-pager a.active {
+    background: #fff;
+}
+
+.bg-bottom-slider{
+	background-image: url(../img/home/banda-roja.png);
+	background-size: cover;
+	height: 200px;
+}
+
+.bx-wrapper .bx-prev {
+	left: 10px;
+	background: url(../img/home/arrow_left.png) no-repeat;
+}
+
+.bx-wrapper .bx-next {
+	right: 10px;
+	background: url(../img/home/arrow_rigth.png) no-repeat;
+}
+
+.bx-wrapper .bx-controls-direction a {
+    width: 45px;
+    height: 45px;
+}
+
+.bx-wrapper .bx-next:hover {
+    background-position: 0;
+}
