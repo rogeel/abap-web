@@ -397,5 +397,103 @@ article p{
 
 article h2 + p{
 	margin-top: 40px;
-	
+}
+
+ul.check-list{
+	list-style: none;
+	color: #737373;
+}
+
+ul.check-list li:before{
+	content: url(../img/sobre-abap/check_list.png);
+	margin-right: 5px;
+}
+
+.btn-download a{
+	display: block;
+}
+
+.btn-download .icon, .btn-download .text{
+	max-height: 65px;
+	vertical-align: top;
+}
+
+.btn-download.brochure .icon{
+	padding: 12px 30px;
+	background-color: #fff;
+}
+
+.btn-download.brochure .text{
+	padding: 12px 30px;
+	background-color: #bf3a33;
+	color: #fff;
+	font-size: 16px;
+}
+
+.btn-download.brochure .text span{
+	color: #6d1e19;
+}
+
+.btn-download .text a{
+	font-size: 14px;
+	text-decoration: underline;
+}
+
+.btn-download.brochure .text a{
+	color: #fff;
+}
+
+.btn-download .inline{
+	-webkit-box-shadow: 0px 5px 5px 0px rgba(50, 50, 50, 0.55);
+	-moz-box-shadow:    0px 5px 5px 0px rgba(50, 50, 50, 0.55);
+	box-shadow:         0px 5px 5px 0px rgba(50, 50, 50, 0.55);
+}
+
+.btn-download.contratacion .text{
+	background-color:  #484848;
+	padding: 12px 30px;
+	font-size: 16px;
+	color: #fff;
+}
+
+.btn-download.contratacion .icon{
+	padding: 19px 30px;
+	background-color: #fff;
+}
+
+.btn-download.contratacion .text a{
+	color:  #c5c3c4;
+}
+
+.btn-download + .btn-download{
+	margin-top: 20px;
+}
+
+h1 + p{
+	margin-top: 40px;
+}
+
+.servicios h3{
+	margin-top: 10px;
+	text-align: center;
+	font-size: 17px;
+	font-weight: bold;
+	padding: 0 40px;
+}
+
+.servicios h3 span{
+	color: #BF3A32;
+}
+
+
+/*article*/
+
+/*GENERAL*/
+
+.mt40{
+	margin-top: 40px;
+}
+
+.mt20{
+	margin-top: 20px;
 }
