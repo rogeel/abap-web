@@ -31,6 +31,7 @@ header form input{
 header form input[type="text"]{
 	width: 195px;
 	height: 26px;
+	padding: 0 5px;
 }
 
 header ul.flexnav{
@@ -488,6 +489,120 @@ h1 + p{
 
 /*article*/
 
+/*CONTACT*/
+
+#contact-form input[type="text"],#contact-form textarea{
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 15px;
+	border: 1px solid #bbb;
+
+}
+
+.fileUpload {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    background-color: #fff;
+    width: 100%;
+    padding: 9px;
+    cursor: pointer;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid #bbb;
+    margin-bottom: 15px;
+    
+}
+
+.fileUpload span{
+	color: #aaa;
+}
+
+.fileUpload span.glyphicon{
+	float: right;
+}
+
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    filter: alpha(opacity=0);
+}
+.btn-enviar{
+	padding: 7px 35px;
+	border-radius: 0;
+	color: #fff;
+	font-size: 18px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#c83629+52,c42722+53 */
+	background: #c83629; /* Old browsers */
+	background: -moz-linear-gradient(top,  #c83629 52%, #c42722 53%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #c83629 52%,#c42722 53%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #c83629 52%,#c42722 53%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c83629', endColorstr='#c42722',GradientType=0 ); /* IE6-9 */
+
+}
+
+ul.contactenos{
+	list-style: none;
+	font-size: 17px;
+	color: #737373;
+}
+
+ul.contactenos li{
+	margin-bottom: 10px;
+}
+
+ul.contactenos li:before{
+	margin-right: 5px;
+    vertical-align: text-top;
+    width: 35px;
+    display: inline-block;
+    text-align: center;
+}
+
+ul.contactenos li.address:before{
+	content: url(../img/contactenos/location.png);
+}
+
+ul.contactenos li.phone:before{
+	content: url(../img/contactenos/mobile.png);
+}
+
+ul.contactenos li.email:before{
+	content: url(../img/contactenos/email.png);
+}
+
+ul.contactenos li.website:before{
+	content: url(../img/contactenos/world.png);
+}
+
+ul.contactenos li ul{
+	display: inline-block;
+	vertical-align: text-top;
+	list-style: none;
+}
+
+ul.contactenos li ul li{
+	line-height: 14px;
+}
+
+ul.contactenos li ul li span{
+	display: block;
+}
 /*GENERAL*/
 
 .mt40{
@@ -496,4 +611,33 @@ h1 + p{
 
 .mt20{
 	margin-top: 20px;
+}
+
+input[type="text"]:focus, textarea:focus{
+	outline: none !important;
+    border:1px solid #c63834 !important;
+    
+   
+}
+
+input:focus::-webkit-input-placeholder,textarea:focus::-webkit-input-placeholder {
+    color: #c63834;
+}
+
+/* Firefox < 19 */
+
+input:focus:-moz-placeholder, textarea:focus:-moz-placeholder {
+    color: #c63834;
+}
+
+/* Firefox > 19 */
+
+input:focus::-moz-placeholder,textarea:focus::-moz-placeholder {
+    color: #c63834;
+}
+
+/* Internet Explorer 10 */
+
+input:focus:-ms-input-placeholder,textarea:focus:-ms-input-placeholder {
+    color: #c63834;
 }
