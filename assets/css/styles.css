@@ -812,3 +812,19 @@ input:focus::-moz-placeholder,textarea:focus::-moz-placeholder {
 input:focus:-ms-input-placeholder,textarea:focus:-ms-input-placeholder {
     color: #c63834;
 }
+
+
+/*RESPONSIVE */
+
+@media (max-width: 1200px){
+
+	header ul.flexnav li a {
+	    padding: 3px 8px;
+	    margin: 0 5px;
+	}
+
+	header form{
+		margin-left: 45px;
+	}
+
+}
