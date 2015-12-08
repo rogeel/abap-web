@@ -864,6 +864,11 @@ header .menu-button .glyphicon {
 		margin-top: 0px;
 	}
 
+	header ul.flexnav li a {
+	    padding: 7px 8px;
+	    margin: 0px;
+	}
+
 }
 
 @media (max-width: 610px){
@@ -923,5 +928,33 @@ header .menu-button .glyphicon {
 	article h2 + p {
 	    margin-top: 20px;
 	}
+
+	.row-contacto>.col-xs-6{
+		width: 100%;
+	}
+
+	.row-contacto>.col-xs-6 + .col-xs-6{
+		margin-top: 30px;
+	}
+
+	.iframe-map{
+		height: 300px;
+	}
+
+	.home-divider {
+	    margin-top: 40px;
+	    margin-bottom: 35px;
+	}
+
+}
+
+@media (max-width: 360px){
+		.servicios>.col-xs-6{
+			width: 100%;
+		}
+
+		.servicios>.col-xs-6 img{
+			margin: 0 auto;
+		}
 
 }
