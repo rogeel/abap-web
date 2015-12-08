@@ -869,6 +869,10 @@ header .menu-button .glyphicon {
 	    margin: 0px;
 	}
 
+	.logos-empresas>.col-md-4{
+		margin-bottom: 20px;
+	}
+
 }
 
 @media (max-width: 610px){
