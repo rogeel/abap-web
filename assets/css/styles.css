@@ -815,6 +815,23 @@ input:focus:-ms-input-placeholder,textarea:focus:-ms-input-placeholder {
 
 
 /*RESPONSIVE */
+header .menu-button {
+    background: #c23b35;
+    margin-top: 10px;
+    color: #fff;
+    float: right;
+    width: 223px;
+    padding: 9px;
+    font-size: 16px;
+    margin-top: -50px;
+}
+
+
+
+
+header .menu-button .glyphicon {
+    top: 12px;
+}
 
 @media (max-width: 1200px){
 
@@ -825,6 +842,86 @@ input:focus:-ms-input-placeholder,textarea:focus:-ms-input-placeholder {
 
 	header form{
 		margin-left: 45px;
+	}
+
+	.img-about{
+		margin-top: 125px;
+	}
+
+}
+
+@media (max-width: 768px){
+	header form {
+	    float: right;
+	    margin-top: 15px;
+	}
+
+	footer ul.terminos {
+	    margin-top: 30px;
+	}
+
+	.img-about{
+		margin-top: 0px;
+	}
+
+}
+
+@media (max-width: 610px){
+	header form input[type="text"] {
+	    width: 120px;
+
+	}
+
+	header .menu-button {
+	    width: 147px;
+	    margin-top: -30px;
+	}
+
+}
+
+@media (max-width: 480px){
+	header .col-xs-6{
+		width: 100%;
+
+	}
+
+	.bg-breadcrumbs {
+	    padding: 10px 0;
+	    margin-top: 20px;
+	}
+
+	header ul.flexnav {
+	    margin-top: 10px;
+	}
+
+	header .col-xs-6 img{
+		margin: 0 auto;
+		
+	}
+
+	header .menu-button {
+	    width: 100%;
+	    margin-top: 10px;
+	}
+
+	header form input[type="text"] {
+	    width: 200px;
+	}
+
+	header form {
+	    margin-left: 0;	
+	}
+
+	article {
+	    margin-top: 30px;
+	}
+
+	article h1 + h2 {
+	    margin-top: 30px;
+	}
+
+	article h2 + p {
+	    margin-top: 20px;
 	}
 
 }
