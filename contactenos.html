@@ -68,19 +68,19 @@
 					<div class="row row-contacto">
 						<div class="col-md-6 col-sm-6 col-xs-6">
 							<h1>Escríbenos</h1>
-							<form action="" method="POST" id="contact-form" class="mt40">
-								<input type="text" required min="5" name="nombre" id="nombre" placeholder="Nombre">
+							<form action="contactenos.html" method="POST" id="contact-form" class="mt40">
+								<input type="text" required minlength="5" name="nombre" id="nombre" placeholder="Nombre">
 								<input type="email" required name="email" id="email" placeholder="Correo">
-								<input type="text" required min="3" name="asunto" id="asunto" placeholder="Asunto">
+								<input type="text" required minlength="3" name="asunto" id="asunto" placeholder="Asunto">
 								<div class="fileUpload">
 								    <span>Adjuntar Archivo</span>
 								    <span class="glyphicon glyphicon-folder-open"></span>
-								    <input type="file" class="upload" />
+								    <input type="file" class="upload" id="archivo" name="archivo" />
 								</div>
 								<textarea name="mensaje" required id="mensaje" placeholder="Mensaje" cols="30" rows="10"></textarea>
 								<div class="g-recaptcha" data-sitekey="6LeEXhITAAAAANKZN-NVrm3Qy9vyC3j2F0ZRNxO3"></div>
 								<br/>
-								<input type="submit" value="Enviar" class="btn btn-enviar">
+								<input type="submit" value="Enviar" id="send-form" class="btn btn-enviar">
 						    </form>
 						</div>
 						<div class="col-md-6 col-sm-6 col-xs-6">

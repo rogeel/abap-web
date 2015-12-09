@@ -813,6 +813,10 @@ input:focus:-ms-input-placeholder,textarea:focus:-ms-input-placeholder {
     color: #c63834;
 }
 
+label.error{
+	color: #c63834;
+}
+
 
 /*RESPONSIVE */
 header .menu-button {

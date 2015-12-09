@@ -11,11 +11,21 @@
 
 	        errorPlacement: function(error, element) {
 	            
-	               error.insertAfter($(element));
+	               error.insertBefore($(element));
 	            
 	        },
 
 	        submitHandler: function(form) {
+	        	var v = grecaptcha.getResponse();
+			    if(v.length == 0)
+			    {
+			    	$( '<label class="error" >Debe validar el captcha.</label>' ).insertBefore( $( ".g-recaptcha" ) );
+
+			    }else{
+			    	
+			    	//form.submit();
+			    }
+	        	
 	            
 
 	            
@@ -24,6 +34,12 @@
 	            
 	        }
 	    });
+
+
+
+	    $("#archivo").on('change',function(){
+		    $('.fileUpload span:not(.glyphicon)').text(this.files[0].name);
+		});
 	})
 
 
